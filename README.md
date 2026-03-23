@@ -8,8 +8,6 @@ A simple web application that converts currencies using a live exchange rate API
 
 - 🌍 Real-time currency conversion using API  
 - 🏳️ Country flags for each currency  
-- 🔄 Swap currencies (if implemented)  
-- 📱 Responsive design for mobile and desktop  
 - ⚡ Fast and lightweight (no frameworks)
 
 ---
@@ -19,7 +17,8 @@ A simple web application that converts currencies using a live exchange rate API
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla JS)  
-- Exchange Rate API (mention the API you used)
+- Exchange Rate API (Currency Data) - `https://hexarate.paikama.co/api/rates/usd/bdt/latest`
+- Flag API - 
 
 ---
 
@@ -62,12 +61,12 @@ currency-converter/
 ### 1. Exchange Rate API (Currency Data)
 - Used for fetching real-time exchange rates  
 - Endpoint example:  
-  `https://api.exchangerate-api.com/v4/latest/USD`  
+  `https://hexarate.paikama.co/api/rates/usd/bdt/latest`  
 
 ### 2. Flag API
 - Used to fetch country flags dynamically based on currency/country code  
 - Example API:  
-  `https://flagsapi.com/` or similar service you integrated  
+  `https://flagsapi.com/BD/shiny/64.png`
 
 ---
 
@@ -78,14 +77,6 @@ currency-converter/
 - Add search/filter for currencies  
 - Improve UI/UX design  
 - Add history of conversions  
-
----
-
-# 🚀 Features
-
-- 🌍 Real-time currency conversion using API  
-- 🏳️ Country flags fetched dynamically via API   
-- ⚡ Fast and lightweight (no frameworks)
 
 ---
 
