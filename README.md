@@ -31,7 +31,7 @@ A simple web application that converts currencies using a live exchange rate API
 
 # 🔗 Live Demo
 
-https://currencyconverterapibassed.netlify.app/
+https://krishna-2013.github.io/Currency-Converter-API-Based/
 
 ---
 
