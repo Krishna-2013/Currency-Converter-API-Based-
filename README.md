@@ -37,6 +37,7 @@ https://currencyconverterapibassed.netlify.app/
 
 # 📂 Project Structure
 
+```
 currency-converter/
 │── index.html
 │── style.css
@@ -44,7 +45,7 @@ currency-converter/
 │── codes.js
 │── fav icon
 │── README.md
-
+```
 ---
 
 # ⚙️ How It Works
